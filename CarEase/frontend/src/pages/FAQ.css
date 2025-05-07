@@ -1,0 +1,133 @@
+.faq-title{
+    background-color: rgba(0, 0, 0, 0.79);
+    color: #fff;
+    min-height: 72vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.faq-title:before{
+    content: '';
+    background: url('/public/images/faq.jpg') no-repeat center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+}
+
+.faq-title-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 260px;
+}
+
+.faq-title-text h4{
+    font-size: 24px;
+    word-spacing: 5px;
+    font-weight: 500;
+    font-family: Lucida Handwriting;
+    position: relative;
+    color: #f5b754;
+}
+
+.faq-title-text h1{
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 1px 1px 2px #fff;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+
+.faq-questions{
+    height: 80vh;
+    width: 98vw;
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.faq-questions .faq-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.faq-item{
+    background: #333;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    margin: 20px 0;
+    /* position: sticky; */
+}
+
+.question-title{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px 15px;
+    padding: 0 10px;
+}
+
+.question-title h2{
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.question-title span{
+    color: #f5b754;
+    font-weight: 600;
+}
+
+.question-desc{
+    background-color: #f5b754;
+    color: #222;
+    max-height: 0;
+    overflow: hidden;
+    transition:  0.5s cubic-bezier(0,1,0,1);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.question-desc p{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 25px;
+    text-wrap: wrap;
+}
+
+.question-desc.show{
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+.faq-middle img{
+    height: 400px;
+    width: 400px;
+}
+
+.faq-questions .faq-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}

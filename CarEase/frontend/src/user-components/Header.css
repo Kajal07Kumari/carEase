@@ -1,0 +1,123 @@
+.user-navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 220px;
+    align-items: center;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    z-index: 999;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    /* border: 1px solid red;   */
+}
+
+.user-navbar-transparent {
+    background-color: transparent;
+}
+
+.user-navbar-scrolled {
+    background-color: #222;
+}
+
+.user-header-logo{
+    /* border: 1px solid red; */
+    font-size: 28px;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 2px #f5b754;
+}
+
+.user-header-logo h1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.user-header-logo h1 a:hover{
+    cursor: pointer;
+}
+
+.user-header-logo span{
+    color: #f5b754;
+}
+
+.user-header-navlinks{
+    /* margin-right: 24%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.user-header-navlinks nav a{
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 20px;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+.user-header-navlinks nav a:hover{
+    color: #f5b754;
+    padding-bottom: 3px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.user-header-navlinks nav a.active{
+    color: #f5b754;
+    padding-bottom: 3px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+    cursor: not-allowed;
+}
+
+.user-header-dashboard{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.user-header-dashboard .dashboard-icon, .logout-icon{
+    /* border: 2px solid #f5b754; */
+    padding: 0 10px;
+}
+
+.dashboard-icon .header-icon{
+    font-size: 26px;
+    margin-top: 8px;
+}
+
+.logout-icon .header-icon{
+    font-size: 34px;
+    margin-top: 6px;
+    padding-left: 10px;
+    transition: 0.1s ease-in-out;
+}
+
+.dashboard-text, .logout-text{
+    margin: 0 2px;
+    font-weight: 600;
+}
+
+.user-header-dashboard a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.1s ease-in-out;
+}
+
+.logout-text a:hover{
+    color: red;
+}
+
+.logout-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;      
+}

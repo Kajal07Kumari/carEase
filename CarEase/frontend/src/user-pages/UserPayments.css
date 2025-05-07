@@ -1,0 +1,162 @@
+.userpayment-title{
+    margin: 1% 10%;
+    padding: 10px 100px;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userpayment-title h2{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 1px;
+    width: max-content;
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: #f5b754;
+    text-underline-offset: 10px;
+}
+
+.userpayment-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.userpayment-search .userpayment-searchtxt{
+    width: 300px;
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #333;
+    background-color: #333;
+    color: #f5b754;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.userpayment-search .userpayment-searchtxt:focus{
+    border: 1px solid #f5b754;
+    background-color: #222;
+}
+
+.userpayment-search .userpayment-searchbtn{
+    width: 50px;
+    height: 48px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: #333;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.userpayment-searchbtn:hover{
+    cursor: pointer;
+    background-color: #222;
+    color: #f5b754;
+    border: 1px solid #f5b754;
+}
+
+.mypayment{
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 100px 0;
+}
+
+.User-payment{
+    width: 70vw;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.User-payment .User-payment-title{
+    margin: 15px;
+}
+
+.User-payment-title h1{
+    color: #f5b754;
+    text-shadow: 1px 1px 2px #f5b754;
+}
+
+.User-payment .User-payment-table{
+    width: 100%;
+    border-radius: 100px;
+    border-collapse: collapse;
+}
+
+.User-payment-table tr{
+    border: 1px solid #fff;
+    transition: 0.7s ease;
+}
+
+.User-payment-table tr th{
+    font-size: 24px;
+    padding: 20px;
+    color: #f5b754;
+    background-color: #333;
+}
+
+.User-payment-table tr td{
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.User-payment-table tr td span{
+    padding: 7px 5px;
+    border-radius: 5px;
+    font-size: 18px !important;
+    font-weight: 500;
+    min-width: 180px;
+    text-align: center;
+}
+
+.Userhome-cancel{
+    color: red;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.Userhome-inprogress{
+    color: royalblue;
+    background-color: rgba(65, 105, 225, 0.2);
+}
+
+.Userhome-completed{
+    color: #1FBC2F;
+    background-color: rgba(31, 188, 47, 0.2);
+    
+}
+
+.userpayment-pagination{
+    margin-top: 20px;
+    position: static;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.userpayment-pagination .userpayment-pagination-btn{
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50%;
+}

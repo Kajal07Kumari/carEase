@@ -1,0 +1,196 @@
+.carform-popup{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.carform-add-form{
+    max-height: 50vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.carform-add-form::-webkit-scrollbar {
+    width: 10px;
+}
+
+.carform-add-form::-webkit-scrollbar-track {
+    background-color: #333  ; 
+    border-radius: 10px;
+  }
+  
+ 
+  .carform-add-form::-webkit-scrollbar-thumb {
+    background-color: #f5b754; 
+    border-radius: 10px;
+    border: 2px solid #f5b754;
+  }
+  
+
+  .carform-add-form::-webkit-scrollbar-thumb:hover {
+    background-color: #fff; 
+    cursor: pointer;
+  }
+
+.cardform-popup-login-content{
+    color: #fff;
+    height: auto;
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.carform-popup-login-content .carform-login-title{
+    font-size: 52px;
+    text-align: center;
+    text-shadow: 1px 1px 3px #fff;
+    top: 0;
+    color: white;
+}
+
+.carform-popup-login-content .carform-login-title span{
+    color: #f5b754;
+}
+
+.carform-add-form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 10px 30px;
+}
+
+.carform-popup-login-content .carform-add-form .carform-label{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 0;
+    padding-left: 5px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #333;
+}
+
+.carform-add-form .carform-textbox{
+    font-size: 20px;
+    width: 100%;
+    padding: 5px 10px;
+    color: #f5b754;
+    background-color: #333;
+    transition: 0.7s all ease;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+::placeholder{
+    font-weight: 300;
+}
+
+.carform-add-form .login-textbox:focus{
+    outline: none;
+    border: none;
+}
+
+.carform-dropdown-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.carform-dropdown-box .carform-dropdown select{
+    /* border: 1px solid #ccc; */
+    border: none;
+    outline: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    position: rela;
+}
+
+.carform-dropdown-box .carform-dropdown select:hover {
+    border-color: #1b1b1b;
+    background-color: #1b1b1b;
+    color: #f5b754;
+}
+
+.carform-textarea{
+    font-size: 20px;
+    width: 100%;
+    padding: 5px 10px;
+    color: #f5b754;
+    border-radius: 20px;
+    background-color: #333;
+    border: 1px solid #222;
+    outline: none;
+    user-select: contain;
+    margin: 5px 0;
+    resize: none;
+}
+
+.carform-carimg{
+    font-size: 20px;
+    width: 100%;
+    padding: 7px 10px;
+    color: #f5b754;
+    border-radius: 20px;
+    background-color: #333;
+    border: 1px solid #222;
+    outline: none;
+    user-select: contain;
+    margin: 5px 0;
+}
+
+.carform-carimg::file-selector-button{
+    font-size: 16px;
+    border-radius: 20px;
+    font-weight: 700;
+    padding: 1px;
+    width: 22%;
+    align-self: center;
+    border-radius: 10px;
+    background-color: #f5b754;
+    color: #222;
+    border: none;
+    outline: none;
+    transition: 0.5s ease;
+    margin-right: 10px;
+}
+
+.carform-carimg::file-selector-button:hover{
+    font-weight: 700;
+    cursor: pointer;
+    background: #fff;
+    color: #333;
+    box-shadow: 1px 1px 10px #333;
+}
+
+.carform-add-form .carform-add-btn{
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 25px;
+    width: fit-content;
+    align-self: center;
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    outline: none;
+    transition: 0.5s ease;
+}
+
+.carform-add-btn:hover{
+    font-weight: 700;
+    cursor: pointer;
+    background: #f5b754;
+    color: #333;
+    box-shadow: 1px 1px 10px #333;
+}
